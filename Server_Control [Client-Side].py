@@ -6,9 +6,6 @@ import time
 
 BUFF_SIZE = 65535
 
-print("Accessing GSS Mainframe...")
-print("Make sure to be connected to VPN to encrypt traffic!")
-
 lock = threading.Lock()
 
 class ServerControl:
